@@ -16,6 +16,5 @@ path = "src/demo/main.rs"
 [dependencies]
 log = "0.4"
 actix-web = "4"
-awc = "3"
 oauth2 = "4"
 futures-util = "0.3"
