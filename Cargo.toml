@@ -1,0 +1,21 @@
+[package]
+name = "actix-middleware-rfc7662"
+version = "0.1.0"
+edition = "2021"
+description = "Actix-web extractor which validates OAuth2 tokens through an RFC 7662 token introspection endpoint."
+license = "MIT"
+repository = "https://github.com/jesterpm/actix-middleware-rfc7662"
+authors = ["Jesse Morgan <jesse@jesterpm.net>"]
+
+[[bin]]
+name = "demo"
+path = "src/demo/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4"
+actix-web = "4"
+awc = "3"
+oauth2 = "4"
+futures-util = "0.3"
