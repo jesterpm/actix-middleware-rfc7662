@@ -1,10 +1,10 @@
 [package]
 name = "actix-middleware-rfc7662"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 description = "Actix-web extractor which validates OAuth2 tokens through an RFC 7662 token introspection endpoint."
 license = "MIT"
-repository = "https://github.com/jesterpm/actix-middleware-rfc7662"
+repository = "https://git.jesterpm.net/pub/jesterpm/actix-middleware-rfc7662.git"
 authors = ["Jesse Morgan <jesse@jesterpm.net>"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
